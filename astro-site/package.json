@@ -1,0 +1,21 @@
+{
+  "name": "my-astro-site",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "npm run build && npx gh-pages -d dist"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.0.7",
+    "@astrojs/rss": "^4.0.11",
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^5.1.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
